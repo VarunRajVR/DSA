@@ -15,7 +15,7 @@ class hash:
     def __setitem__(self, key, value):
         h = self.get_hash(key)
 
-        # # chaining
+         # chaining
         # found = False
         # for index, element in enumerate(self.d[h]):
         #     if len(element)==2 and element[0]==key:
